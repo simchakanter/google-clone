@@ -1,1 +1,108 @@
-main.css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My styles */
+
+body {
+	font-family: arial, sans-serif;
+}
+
+.container {
+	min-width: 960px;
+}
+
+header {
+	background: white;
+	height: 60px;
+}
+
+header ul {
+	font-size: .8em;
+	float: right;
+	padding-top: 16px;
+	padding-right: 30px;
+}
+
+header ul li {
+	display: inline-block;
+	float: left;
+	padding: 7px;
+}
+
+#grid {
+	background-image: url(file:///C:/PersonalData/TEMP/Thinkful/FEWD/google-clone/images/grid.png);
+	background-repeat: no-repeat;
+	background-size: 42% auto;
+	background-position: 42% 42%;
+	text-indent: -9999px;
+	width: 30px;
+	padding-right: 18px;
+	padding-left: 6px;
+}
+
+#btn-sign-in {
+	background-color: blue;
+	background-image: linear-gradient(to top, #0A4BFF 0%, #00A3EF 100%);
+	border-radius: 2px;
+	color: white;
+	padding: 9px 13px 8px;
+	font-weight: bold;
+}
+
+#logo {
+	background-image: url(file:///C:/PersonalData/TEMP/Thinkful/FEWD/google-clone/images/google-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 85%;
+	background-size: 20%;
+	height: 250px;
+}
+
+#logo p {
+	text-indent: -9999px;
+}
