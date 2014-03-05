@@ -59,6 +59,14 @@ body {
 	min-width: 960px;
 }
 
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
 /*Header styles*/
 
 header {
@@ -123,11 +131,16 @@ header ul li {
 	width: 560px;
 	padding: 7px;
 	border: 1px solid #d9d9d9;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 
 #search-form input[type="text"]:hover {
 	border-color: #b3b3b3;
+}
+
+#search-form input[type="text"]:focus {
+	outline: none;
+	border-color: #0066ff;
 }
 
 #search-mic {
@@ -141,4 +154,43 @@ header ul li {
 	text-indent: -9999px;
 	position: relative;
 	right: 28px;
+}
+
+#search-form input[type="submit"] {
+	background-color: #f2f2f2;
+	border: 1px solid #d9d9d9;
+	font-weight: bold;
+	border-radius: 2px;
+	color: #404040;
+	margin: 5px;
+	padding: 7px 7px;
+}
+
+#search-form input[type="submit"]:hover {
+	border-color: #b3b3b3;
+	box-shadow:0 1px 1px #aaaaaa;
+}
+
+/* Footer styles */
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: #f2f2f2;
+	color: #666666;
+	font-size: 12px;
+	height: 40px;
+	border-top: 1px solid #d9d9d9;
+	letter-spacing: .5px;
+}
+
+footer ul {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 14px 15px;
 }
