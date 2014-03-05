@@ -49,6 +49,8 @@ table {
 
 /* My styles */
 
+/*Global Styles*/
+
 body {
 	font-family: arial, sans-serif;
 }
@@ -56,6 +58,8 @@ body {
 .container {
 	min-width: 960px;
 }
+
+/*Header styles*/
 
 header {
 	background: white;
@@ -76,7 +80,7 @@ header ul li {
 }
 
 #grid {
-	background-image: url(file:///C:/PersonalData/TEMP/Thinkful/FEWD/google-clone/images/grid.png);
+	background-image: url(images/grid.png);
 	background-repeat: no-repeat;
 	background-size: 42% auto;
 	background-position: 42% 42%;
@@ -95,14 +99,46 @@ header ul li {
 	font-weight: bold;
 }
 
+/*Logo Styles*/
+
 #logo {
-	background-image: url(file:///C:/PersonalData/TEMP/Thinkful/FEWD/google-clone/images/google-logo.png);
+	background-image: url(images/google-logo.png);
 	background-repeat: no-repeat;
 	background-position: 50% 85%;
-	background-size: 20%;
+	background-size: 21%;
 	height: 250px;
 }
 
 #logo p {
 	text-indent: -9999px;
+}
+
+/*Search form styles*/
+
+#search-form {
+	text-align: center;
+}
+
+#search-form input[type="text"] {
+	width: 560px;
+	padding: 7px;
+	border: 1px solid #d9d9d9;
+	margin-bottom: 15px;
+}
+
+#search-form input[type="text"]:hover {
+	border-color: #b3b3b3;
+}
+
+#search-mic {
+	background-image: url(images/microphone.png);
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-size: 24px auto;
+	background-repeat: no-repeat;
+	background-position: 50% 46%;
+	text-indent: -9999px;
+	position: relative;
+	right: 28px;
 }
